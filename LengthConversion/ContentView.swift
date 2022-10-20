@@ -127,7 +127,7 @@ struct ContentView: View {
                 Section {
                     Text("\(result, specifier: "%.2f")")
                 } header: {
-                    Text("\(length) \(fromUnit) in \(toUnit) is")
+                    Text("\(length, specifier: "%.2f") \(fromUnit) in \(toUnit) is")
                 }
             }.navigationTitle("Length conversion")
             
